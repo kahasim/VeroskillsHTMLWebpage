@@ -1,0 +1,112 @@
+
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    .headerleft a{
+      padding: 12px 12px
+    }
+    .body{
+    background-color: white;
+    margin-left:4vh;
+    margin-right: 4vh;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    top: 1px;
+    font-size: 2em;
+    }
+    .column{
+    padding: 1vh;
+    }
+    .display{
+      display: flex;
+    }
+    .footer{
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    bottom: 0;
+    width: 80%;
+    }
+   .footer a{
+    color: blue;
+    }
+    .header{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    z-index: 2;
+    top: 10%;
+    width: 95%
+    }
+    .headerleft{
+    position: absolute;
+    left: 5%
+    }
+    .headerleft li{
+    display: inline;
+    font-size: 14px;
+    padding: -2px;
+    }
+    .header{
+    padding-left: 1vh;
+    }
+    .header2{
+    position: relative;
+    width:95%;
+    bottom: 10%;
+    height: 5vh;
+    background-color: #04bd14;
+    color: white
+    }
+
+    .header2 li{
+    display: inline;
+    font-size: 14px;
+    }
+    .header2left{
+    position: absolute;
+    text-align: left;
+    padding: 0px 6px;
+    left: 8%;
+    }
+    .header2right{
+    position: absolute;
+    text-align: right;
+    padding: 0px 32px;
+    right: 8%;
+    }
+    .header2left a{
+    padding: 0px 10px;
+    }
+    .header2right a{
+    padding: 0px 10px;
+    }
+    .terms{
+    color: blue;
+    text-decoration: underline;
+    }
+    div {
+    background-color: white;
+    }  
+    hr.solid{
+    border-top: 1px solid black;
+    }
+    #subheader{
+    background-color: #c6bfbf;
+    padding: 10px 80px 10px;
+    width: 82%;
+    }
+    .subheader2{
+    background-color: white;
+    box-sizing: content-box;
+    padding-left: 8vh;
+    padding-right: 10vh;
+    padding-bottom: 10vh;
+    }
