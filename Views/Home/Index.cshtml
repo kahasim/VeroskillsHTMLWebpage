@@ -1,0 +1,263 @@
+﻿@using FutureValue.Models;
+@model FutureValue.Models.IndexModel
+@{
+    ViewData["Title"] = "Adenture Game Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to ASP .NET CORE</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<style>
+    .body {
+        border: 8px outset lightgreen;
+        background-color: lightgrey;
+        text-align: center;
+    }
+
+    .fillform {
+        background-color: darkolivegreen;
+        text-align: center;
+        font-size: 24px;
+        border: 1px outset black;
+    }
+
+    .funbutton {
+        background-color: lightgreen;
+        border: none;
+        color: black;
+        padding: 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    #customers {
+        border: 2px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #customers td, #customers th {
+            border: 2px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+
+    form {
+        color: white;
+    }
+</style>
+
+
+<body class="body">
+    <h1>Future Value Calculator</h1>
+    <form asp-action="Index" method="post">
+        <div asp-validation-summary="All"></div>
+        <div>
+            <label asp-for="MonthlyInvestment">Monthly Investment:</label>
+            <input asp-for="MonthlyInvestment" />
+        </div>
+        <div>
+            <label asp-for="YearlyInterestRate">Yearly Interest Rate:</label>
+            <input asp-for="YearlyInterestRate" />
+        </div>
+        <div>
+            <label asp-for="Years">Number of Years:</label>
+            <input asp-for="Years" />
+        </div>
+        <div>
+            <label>Future Value:</label>
+            <input value="@ViewBag.FV.ToString("C2")" readonly>
+        </div>
+        <button type="submit">Calculate</button>
+        <a asp-action="Index">Clear</a>
+    </form>
+
+    <div id="picture">
+        <img src="https://wallpapercave.com/wp/aohMLJB.jpg" alt="Laptop" width="600" height="550">
+        <br>
+    </div>
+    <button class="funbutton" type="button" onclick="alert('Lets change the Picture with a API!')"> Click Me! </button>
+    <button class="funbutton" type="button" onclick="alert('Lets change the Picture with a API!')"> Click Me! </button>
+
+    <div class="fillform">
+
+
+        <!--  <img src="Antra-black.png" alt="Company Logo" width = "50%" height = "50%"> -->
+
+        <h2 style="color: white; font-weight: bold;"> Adventure Game Story Collection Form</h2>
+
+        <p>What new adventures would you like our characters to go on?</p>
+
+        <form asp-action="Index" method="post">
+            <div>
+                <label asp-for="fname">Your first name:</label><br>
+                <input asp-for="fname" /><br>
+            </div>
+
+            <label for="cname">New character name:</label><br>
+            <input type="text" id="cname" name="cname"><br><br>
+
+            <label for="colors">Choose a color for the new character:</label><br>
+            <select id="colors" name="colors">
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="grey">Grey</option>
+            </select>
+            <button type="submit">Calculate</button>
+            <a asp-action="Index">Clear</a>
+        </form>
+        <br>
+
+        <label for="enchanted">
+            <input type="radio" id="enchanted" name="destination" value="forest">
+            Enchanted Forest
+        </label>
+        <br>
+
+        <label for="haunted">
+            <input type="radio" id="haunted" name="destination" value="woods">
+            Haunted Woods
+        </label>
+        <br>
+
+        <label for="crystal">
+            <input type="radio" id="crystal" name="destination" value="lake">
+            Crystal Lake
+        </label>
+
+        <h2>Adventure Game Form</h2>
+        <h3> Git Add Dot</h3>`
+
+        <!-- CHECKBOX -->
+        <p>Choose all the prizes you would like the heroes to find:</p>
+        <input type="checkbox" id="prize1" name="prize" value="beans">
+        <label for="prize1">Magical Bean</label><br>
+        <input type="checkbox" id="prize2" name="prize" value="caterpillars">
+        <label for="prize2">Glow in the dark caterpillars</label><br>
+        <input type="checkbox" id="prize3" name="prize" value="card">
+        <label for="prize3">Amazon giftcard</label><br><br>
+
+        <!-- TEXTAREA -->
+        <label for="suggestion">Adventure Suggestions:</label><br>
+<textarea id="suggestion" name="suggestion" rows="10" cols="55">
+</textarea>
+
+        <br><br>
+        <table>
+            <!-- ROW TAG -->
+            <tr>
+                <!-- TABLE HEADER TAG -->
+                <th>Name</th>
+                <th>Hero OR Villain</th>
+                <th>Location 1st Encounter</th>
+                <th>Story</th>
+            </tr>
+            <tr>
+                <!-- TABLE DATA TAG -->
+                <td>Luna</td>
+                <td>Villain</td>
+                <td>Treetops</td>
+                <td>Helps find the magical door</td>
+            </tr>
+        </table>
+        <br>
+
+        <table id="customers">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Part</th>
+                    <th>Location</th>
+                    <th>Story</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Rajah</td>
+                    <td>Villain</td>
+                    <td>Treetops</td>
+                    <td>Helps find the magical door</td>
+                </tr>
+                <tr>
+                    <td>Patches</td>
+                    <td>Hero</td>
+                    <td>Lagoon</td>
+                    <td>Leads to the secret underwater caves</td>
+                </tr>
+                <tr>
+                    <td>Orsa</td>
+                    <td>Hero</td>
+                    <td>Snowy Mountain</td>
+                    <td>Discovers the ice crystals</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>P</th>
+                    <th>L</th>
+                    <th>S</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table id="trees" border="1">
+            <tr>
+                <th colspan="6">Story Line Details</th>
+            </tr>
+            <tr>
+                <td rowspan="3" colspan="3">Treetops</td>
+            </tr>
+            <tr></tr>
+
+            <tr>
+                <td>Trunks</td>
+                <td>Roots</td>
+            </tr>
+
+        </table>
+
+        <br><br>
+    </div>
+    <div>
+        <!--  <img src="https://wallpapercave.com/wp/aohMLJB.jpg" alt="Laptop2" width = "600" height = "550"> -->
+
+        <h1>Once upon a time...</h1>
+
+        <p>
+            Cacoi the duck lived in a beautiful lagoon. <br>
+            He starts off his day with the same greeting. "Hello World!
+        </p>
+        <p>He loves the <span style="color:green; font-weight:bold"> green</span> of the trees against the<span style="color:blue; font-weight:bold"> blue </span> ocean</p>
+        <h3>One day he found his friend Rosie staring into the woods.</h3>
+
+        <h2>Should Coci walk over to see what Rosie is looking at OR ask Rosie?</h2>
+    </div>
+
+</body>
