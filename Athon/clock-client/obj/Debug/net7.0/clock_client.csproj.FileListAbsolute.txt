@@ -1,0 +1,6 @@
+C:\Users\kahas\source\Athon\clock-client\obj\Debug\net7.0\clock_client.csproj.AssemblyReference.cache
+C:\Users\kahas\source\Athon\clock-client\obj\Debug\net7.0\clock_client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kahas\source\Athon\clock-client\obj\Debug\net7.0\clock_client.AssemblyInfoInputs.cache
+C:\Users\kahas\source\Athon\clock-client\obj\Debug\net7.0\clock_client.AssemblyInfo.cs
+C:\Users\kahas\source\Athon\clock-client\obj\Debug\net7.0\clock_client.csproj.CoreCompileInputs.cache
+C:\Users\kahas\source\Athon\clock-client\obj\Debug\net7.0\clock_client.sourcelink.json

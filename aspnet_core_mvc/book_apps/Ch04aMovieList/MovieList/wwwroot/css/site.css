@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body{
+    background-color: black ;
+}
+
+h2{
+    display:flex;
+    max-height: 300px;
+    alight-content: auto;
+    text-align: center;
+    background-color: darkgreen;
+    overflow: hidden;
+}
+
+table{
+    background-color: white;
+    max-width: 40%;
+    margin: 30px;
+    
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.mb-2{
+    background-color: white;
+}
+
+img{
+}
+
+.flexbox1{
+    display: flex;
+}
+
+.container{
+    background-color: green;
+}

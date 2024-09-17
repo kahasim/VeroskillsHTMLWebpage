@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+    <div class="Calculator">
+    <div class='value1'>
+        <input type="textarea" placeholder="enter value 1" id="input1">
+
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+
+    <div class='grid'>
+       <input type="textarea" placeholder="enter value 2" id="input2">
+       <section class="placeValue" onclick="handleClick(event)">
+        <button onclick="CalculateCal(event)">Math Calculate</button>
+        <div class="calculator-grid">
+            <button id="calculator-button1">1</button>
+            <button id="calculator-button2">2</button>
+            <button id="calculator-button3">3</button>
+            <button id="calculator-button4">4</button>
+            <button id="calculator-button5">5</button>
+            <button id="calculator-button6">6</button>
+            <button id="calculator-button7">7</button>
+            <button id="calculator-button8">8</button>
+            <button id="calculator-button9">9</button>
+            <!-- Add more buttons here -->
+       </section>
+    </div>
+    <button onclick="Calculate(event)">Calculate</button>
+    
+    <button onclick="Reset(event)">Reset</button>
+    <h3>Result: <span id="result"></span></h3>
+
+    <section class="incrementbutton" onclick="handleClick(event)">
+      <div class="scoreValue">Button-Pushed: 0</div>
+      <br>
+      <button id="plus">+</button>
+    </section>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

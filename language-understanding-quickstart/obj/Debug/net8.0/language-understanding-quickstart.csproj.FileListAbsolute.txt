@@ -1,0 +1,15 @@
+C:\Users\kahas\source\language-understanding-quickstart\bin\Debug\net8.0\language-understanding-quickstart.exe
+C:\Users\kahas\source\language-understanding-quickstart\bin\Debug\net8.0\language-understanding-quickstart.deps.json
+C:\Users\kahas\source\language-understanding-quickstart\bin\Debug\net8.0\language-understanding-quickstart.runtimeconfig.json
+C:\Users\kahas\source\language-understanding-quickstart\bin\Debug\net8.0\language-understanding-quickstart.dll
+C:\Users\kahas\source\language-understanding-quickstart\bin\Debug\net8.0\language-understanding-quickstart.pdb
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.AssemblyInfoInputs.cache
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.AssemblyInfo.cs
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.csproj.CoreCompileInputs.cache
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.sourcelink.json
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.dll
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\refint\language-understanding-quickstart.dll
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.pdb
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\language-understanding-quickstart.genruntimeconfig.cache
+C:\Users\kahas\source\language-understanding-quickstart\obj\Debug\net8.0\ref\language-understanding-quickstart.dll

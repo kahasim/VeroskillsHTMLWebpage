@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS DOM</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+
+
+<form class="form1">
+  <ul>
+    <li>
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+    </li>
+    <li>
+      <label for="job">Job:</label>
+      <input type="text" id="job"  />
+    </li>
+    <li>
+      <p>Please select your age:</p>
+      <section>
+        <div>
+          <input type="radio" id="age1" name="age" value="0-30">
+          <label for="age1">0-30</label>
+        </div>
+        <div>
+          <input type="radio" id="age2" name="age" value="31-60">
+          <label for="age2">31 - 60</label><br>
+        </div>
+        <div>
+          <input type="radio" id="age3" name="age" value="61+">
+          <label for="age3">61+</label>
+        </div>
+
+      </section>
+    </li>
+  </ul>
+  <button type="submit">Submit Form!</button>
+</form>
+
+  <p class="result">Name:</p>
+  <p class="result">Job:</p>
+  <p class="result">Age:</p>
+
+  <script src="main.js"></script>
+ </body>
+</html>

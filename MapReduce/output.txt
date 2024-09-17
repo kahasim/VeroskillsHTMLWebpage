@@ -1,0 +1,11 @@
+hello: 6
+world: 7
+goodbye: 1
+This: 3
+is: 2
+the: 3
+program: 4
+that: 1
+last: 2
+past: 1
+Is: 1
